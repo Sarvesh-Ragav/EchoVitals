@@ -1,112 +1,46 @@
-# EchoVitals
-# EchoVital 🩺🧠
+# Getting Started with Create React App
 
-**EchoVital** is an AI-powered health solution that creates digital twins for individuals, allowing real-time personalization and simulation of their health conditions. By analyzing health metrics, our platform empowers users with insights, foresight, and control over their well-being like never before.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🚀 Overview
+## Available Scripts
 
-EchoVital uses open-source AI to generate a continuously evolving digital twin of a user’s physical health. This twin helps simulate possible health outcomes, monitor wellness trends, and proactively guide individuals on lifestyle adjustments or interventions.
+In the project directory, you can run:
 
----
+### `npm start`
 
-## 🔍 Problem Statement
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Millions lack access to personalized healthcare insights. Traditional health solutions are reactive, not predictive. There's a dire need for a digital interface that can simulate and project one's health status in real time, enabling preventive and precision healthcare.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
----
+### `npm test`
 
-## 💡 Our Solution
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-A **web-based platform** where:
-- Users input real-time health metrics
-- AI creates a **digital twin** that updates with changes
-- The twin provides predictions, suggestions, and alerts
-- Focuses on **education, early intervention, and personalized care**
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 🧠 Core Features
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- 📊 **Health Data Dashboard**: Visual insights of personal health trends  
-- 🧬 **AI-Generated Digital Twin**: Simulated mirror of user’s health  
-- 🔁 **Real-Time Updates**: Continuous evolution based on new inputs  
-- 💡 **Predictive Analytics**: Insights into possible future conditions  
-- 🔒 **User Privacy First**: Fully secure and encrypted system  
-- 🎓 **Interactive Health Education**: Learn while you engage  
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## 🛠️ Tech Stack
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-- **Frontend**: React.js, TailwindCSS, Framer Motion, Three.js  
-- **Backend**: Python (Flask), Firebase Realtime DB  
-- **AI/ML**: Scikit-learn, TensorFlow Lite, OpenMIMIC datasets  
-- **Design**: Figma, Adobe Illustrator  
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## 🌐 Open-Source AI & Tools Used
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-- **Hugging Face Transformers**  
-- **TensorFlow Lite** (for on-device AI)  
-- **Scikit-learn**  
-- **MIMIC-III Dataset**  
-- **Chart.js & D3.js** for data visualization  
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 🧩 System Architecture
-
-1. **User** submits health data via frontend UI  
-2. **AI Engine** processes the data and simulates the twin  
-3. **Backend** stores historical data and sends feedback  
-4. **Visualization Layer** displays trends, alerts, predictions  
-
----
-
-## 🎯 Intended Impact
-
-- Promote **personal health awareness**  
-- Encourage **preventive care**  
-- Make **AI-driven health education** accessible to all  
-- Reduce burden on healthcare systems via early alerts  
-
----
-
-## 👤 Team EchoVital
-
-- **Shrinidhi Dasaraty** – Presentation Lead & Strategist  
-- **Sarvesh Ragav B** – AI/ML Developer  
-- **N.S. Shashank** – UX Designer & Opener  
-
----
-
-## ⚙️ Setup Instructions
-
-1. Clone the repo  
-   `git clone https://github.com/your-team/echovital.git`
-
-2. Install frontend dependencies  
-   `cd client && npm install`
-
-3. Start Flask server  
-   `cd server && python app.py`
-
-4. Launch the frontend  
-   `cd client && npm start`
-
----
-
-## 📌 License
-
-This project is under the **MIT License** – free to use with attribution.
-
----
-
-## 💬 Acknowledgements
-
-- Pragati AI for Impact Hackathon 2025  
-- OpenAI, TensorFlow, MIMIC Dataset Providers  
-- Healthcare researchers who enabled open data access
-
----
+To learn React, check out the [React documentation](https://reactjs.org/).
